@@ -11,7 +11,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: validate      # schema is owned by Flyway; use 'none' if validation complains
+      ddl-auto: update      # schema is owned by Flyway; use 'none' if validation complains
   flyway:
     enabled: true
   servlet:
